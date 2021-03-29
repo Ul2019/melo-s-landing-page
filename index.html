@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>mello's landing page
+    </title>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" class="logo">Mello's baking team</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </header>
+        <div class="content">
+        <div class="textbx">
+            <h2>It's not just any cake <br>it's<span> Mello's cake</span></h2>
+            <p>Here at Mello's will bring you the sweetest of all times. We bring what is uncomparable , we give you the sweetest treasure. We're committed into bringing the sweetest time of your life </p>
+<a href="#">Learn more</a>
+        </div>
+<div class="imgbox">
+    <img src="./pop3.jpg" class="mello">
+</div>
+</div>
+<div>
+<ul class="pictures">
+<li><img src="./pop3.jpg" onclick="imgSlider('pop3.jpg')"></li>
+<li><img src="./pop6.jpg" onclick="imgSlider('pop6.jpg')"></li>
+<li><img src="./pop4.jpg" onclick="imgSlider('pop4.jpg')"></li>
+</ul>
+<ul class="footer">
+    
+    <li><img src="./icons8-facebook-50.png"></li>
+    <li><img src="./icons8-mail-50.png"></li>
+    <li><img src="./icons8-telephone-50.png"></li>
+    </ul>
+</section>
+        
+<script type="text/javascript">
+function imgSlider(anything){
+document.querySelector('.mello').src = anything;
+
+
+
+}
+
+</script>
+    
+</body>
+</html>
